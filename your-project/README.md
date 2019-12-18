@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Vladimir Autier]*
+# Copper Price, a new economic estimator?
+*Vladimir Autier*
 
-*[Data Analytics, Barcelona & 20.12.19]*
+*Data Analytics, Barcelona, 20.12.19*
 
 ## Content
 - [Project Description](#project-description)
