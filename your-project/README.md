@@ -33,21 +33,22 @@ N.B: The main country that drives the global economy is China. Thus construction
   I want to check if by using Copper as an estimator I can predict with more accuracy the next economic recession.
 
 ## Dataset
+
 * The datasets I have used are maily issued from the US federal reserve but also other different website that allowed me to get the price of Copper for a large period of time.
 
-* Most of the data was provided in Excel format or CSV format.
+ Most of the data was provided in Excel format or CSV format.
 
-* Those are the links were I retrieved the data:
+Those are the links were I retrieved the data:
 
-- https://tradingeconomics.com/china/government-debt-to-gdp
+ https://tradingeconomics.com/china/government-debt-to-gdp
 
-- https://data.oecd.org/gga/general-government-deficit.htm#indicator-chart
+ https://data.oecd.org/gga/general-government-deficit.htm#indicator-chart
 
-- https://www.newyorkfed.org/research/capital_markets/ycfaq.html#/interactive
+ https://www.newyorkfed.org/research/capital_markets/ycfaq.html#/interactive
 
-- https://data.worldbank.org/indicator/ny.gdp.mktp.cd
+ https://data.worldbank.org/indicator/ny.gdp.mktp.cd
 
-- https://www.macrotrends.net/1476/copper-prices-historical-chart-data
+ https://www.macrotrends.net/1476/copper-prices-historical-chart-data
 
 ## Cleaning
 
