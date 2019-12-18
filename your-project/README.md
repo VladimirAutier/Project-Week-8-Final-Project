@@ -19,10 +19,14 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show.
+
+Copper is a commodity that has a broad spectrum of use. It is part of many infrastructure structures and is now used in car batteries among other metals such as lithium or cobalt. Because of it's large impact in our society, a drop or an increase in its price might signify that something is happening in the economy. Moreover, there is this historical belief that the Price of Copper is "an estimator" for how well the global economy is doing.The main objective of this project is to check if the Price of Copper can be an actual estimator of global economy just as the GDP or the Yield Curve. I directed my attention to this topic because the world of commodity is of great interest to me.
+
+N.B: The main country that drives the global economy is China. Thus construction in China could also be an estimator of how well copper, the economy is doing.
 
 ## Hypotheses / Questions
-* What data/business/research/personal question you would like to answer?
+* 
+What data/business/research/personal question you would like to answer?
 * What is the context for the question and the possible scientific or business application?
 * What are the hypotheses you would like to test in order to answer your question?  
 Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
