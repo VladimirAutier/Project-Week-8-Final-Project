@@ -25,23 +25,39 @@ Copper is a commodity that has a broad spectrum of use. It is part of many infra
 N.B: The main country that drives the global economy is China. Thus construction in China could also be an estimator of how well copper, the economy is doing.
 
 ## Hypotheses / Questions
-* 
-What data/business/research/personal question you would like to answer?
-* What is the context for the question and the possible scientific or business application?
-* What are the hypotheses you would like to test in order to answer your question?  
-Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
+* The main question that I asked myself: Can Copper price be considered as an economic estimators of the health of the economy?
+
+* I believe that commodities have and will have still strong implication in the well being of the global economy. Therefore using Copper price to get an insight of how the economy is behaving is interesting. It can be used as an additional tool of controling the economy.
+
+* To anser my original question I decided to compare estimators (economic estimators) with an without the inluence of Copper.
+  I want to check if by using Copper as an estimator I can predict with more accuracy the next economic recession.
 
 ## Dataset
-* Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* Did you build your own datset? If so, did you use an API or a web scraper? PRovide the relevant scripts in your repo.
-* For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* If the question cannot be answered with the available data, why not? What data would you need to answer it better?
+* The datasets I have used are maily issued from the US federal reserve but also other different website that allowed me to get the price of Copper for a large period of time.
+
+* Most of the data was provided in Excel format or CSV format.
+
+* Those are the links were I retrieved the data:
+
+- https://tradingeconomics.com/china/government-debt-to-gdp
+
+- https://data.oecd.org/gga/general-government-deficit.htm#indicator-chart
+
+- https://www.newyorkfed.org/research/capital_markets/ycfaq.html#/interactive
+
+- https://data.worldbank.org/indicator/ny.gdp.mktp.cd
+
+- https://www.macrotrends.net/1476/copper-prices-historical-chart-data
 
 ## Cleaning
-Describe your full process of data wrangling and cleaning. Document why you chose to fill missing values, extract outliers, or create the variables you did as well as your reasoning behind the process.
+
+I have separated my work in 6 different notebooks. Notebooks 1-4 are dedicated to cleaning. I reduce the data sets to a viable format in order for me to perform machine learning. I did not get rid of outliers values as I want all the possible information available. I did drop some missing values, however they did not influence my results.
 
 ## Analysis
-* Overview the general steps you went through to analyze your data in order to test your hypothesis.
+
+* I separated my analysis into two steps. I decided to work with 3 main economic estimators :GDP, Yield Curve(Spread) and the Consumer Confidence Index (CCI).
+
+Overview the general steps you went through to analyze your data in order to test your hypothesis.
 * Document each step of your data exploration and analysis.
 * Include charts to demonstrate the effect of your work.
 * If you used Machine Learning in your final project, describe your feature selection process.
