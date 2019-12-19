@@ -117,5 +117,4 @@ F1 score, AUC score, confusion matrix, accuracy score, cross validation.
 
 ## Links
 
-[Repository](https://github.com/)  
 [Trello](https://trello.com/b/QmImtGq1/final-project)  
