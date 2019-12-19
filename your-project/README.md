@@ -77,6 +77,7 @@
 * The process I used for both models is the following:
 
 -First I trained the model on a portion of the existing values(1970:2006) that I have to test on another portion of the existing data to check if the model is accurate(2006:2009).I looked at this specific portion because it is the time period where the last economic recession took place. 
+
 -Then I followed the same process but now on all the existing values (train) to test the predicted values that I obtained using Time Series with Prophet.
 
 * I obtained promising results:
