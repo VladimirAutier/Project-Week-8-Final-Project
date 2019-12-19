@@ -52,6 +52,8 @@
 
  https://www.macrotrends.net/1476/copper-prices-historical-chart-data
 
+ https://www.kaggle.com/stieranka/predicting-gdp-world-countries
+ 
 ## Cleaning
 
 * I have separated my work in 6 different notebooks. Notebooks 1-4 are dedicated to cleaning. I reduce the data sets to a viable format in order for me to perform machine learning. I did not get rid of outliers values as I want all the possible information available. I did drop some missing values, however they did not influence my results.
