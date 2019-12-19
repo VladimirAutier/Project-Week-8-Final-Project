@@ -77,13 +77,13 @@
 * The process I used for both models is the following:
 
 -First I trained the model on a portion of the existing values(1970:2006) that I have to test on another portion of the existing data to check if the model is accurate(2006:2009).I looked at this specific portion because it is the time period where the last economic recession took place. 
-- Then I followed the same process but now on all the existing values (train) to test the predicted values that I obtained using Time Series with Prophet.
+-Then I followed the same process but now on all the existing values (train) to test the predicted values that I obtained using Time Series with Prophet.
 
 * I obtained promising results:
 
-- In the first step of my modelling I observed that by including the price of Copper as a parameter in the model, allows me to perform a more accurate estimation of the economic situation. Moreover, the random forest algorithm performs better than the logistic regression as the F1 score is better with random forest.
+-In the first step of my modelling I observed that by including the price of Copper as a parameter in the model, allows me to perform a more accurate estimation of the economic situation. Moreover, the random forest algorithm performs better than the logistic regression as the F1 score is better with random forest.
 
-- Then I used this intuition to perform the same modelling on the predicted values. Again, the price of Copper was helping the model to get better results.
+-Then I used this intuition to perform the same modelling on the predicted values. Again, the price of Copper was helping the model to get better results.
 
 
 ## Conclusion
@@ -107,13 +107,13 @@ F1 score, AUC score, confusion matrix, accuracy score, cross validation.
 
 * My folder is constructed in the following way:
 
-- A folder with the jupyter notebooks that involve notebooks 1-4(Cleaning & Visualisation),that helped me understand the data and prepare the data for Machine Learning. The notebooks 5&6 are used for Machine Learning and model building.
+-A folder with the jupyter notebooks that involve notebooks 1-4(Cleaning & Visualisation),that helped me understand the data and prepare the data for Machine Learning. The notebooks 5&6 are used for Machine Learning and model building.
 
-- A folder with the original data I used.
+-A folder with the original data I used.
 
-- A folder with the transformed data sets.
+-A folder with the transformed data sets.
 
-- A folder with the Powerpoint presentation of the topic and some economic insights.
+-A folder with the Powerpoint presentation of the topic and some economic insights.
 
 ## Links
 
